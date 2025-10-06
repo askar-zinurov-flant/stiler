@@ -16,7 +16,7 @@
   "scripts": {
     "serve": "bun run server.ts",
     "dev": "DEVELOPMENT=1 bun run --watch server.ts",
-    "oha": "oha -n 1000 -T \"application/json\" -D \"fetch-data.json\" -m POST http://localhost:3030/render",
+    "oha": "oha -n 1000 -T \"application/json\" -D \"fetch-data.json\" -m POST http://localhost:3030/reports/simple-list",
     "eslint": "eslint"
   }
 }
