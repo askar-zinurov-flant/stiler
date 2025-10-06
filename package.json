@@ -1,0 +1,22 @@
+{
+  "name": "stiler",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "eslint": "^9.37.0",
+    "typescript-eslint": "^8.45.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "stimulsoft-reports-js": "^2025.3.5"
+  },
+  "scripts": {
+    "serve": "bun run server.ts",
+    "dev": "DEVELOPMENT=1 bun run --watch server.ts",
+    "oha": "oha -n 1000 -T \"application/json\" -D \"fetch-data.json\" -m POST http://localhost:3030/render",
+    "eslint": "eslint"
+  }
+}
