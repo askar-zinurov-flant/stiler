@@ -52,7 +52,7 @@
   "Customers": [
     {
       "CustomerID": "ALFKI",
-      "CompanyName": "Alfreds Futterkiste",
+      "CompanyName": "Andreas Futterkiste",
       "ContactName": "Maria Anders",
       "ContactTitle": "Sales Representative",
       "Address": "Obere Str. 57",

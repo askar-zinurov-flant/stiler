@@ -9,7 +9,17 @@ bun install
 To run:
 
 ```bash
-bun run server.ts
+bun serve
 ```
 
-This project was created using `bun init` in bun v1.2.23. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+To test loading:
+
+```bash
+bun oha
+```
+
+To fetch report file:
+
+```bash
+bun fetch
+```
