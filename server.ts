@@ -16,7 +16,8 @@ Bun.serve({
       // const html = stiReport.exportDocument(Stimulsoft.Report.StiExportFormat.Pdf);
       return new Response(html, {
         headers: {
-          "Content-Type": "text/html", // "Content-Type": "svg+xml",
+          "Content-Type": "text/html"
+          // "Content-Type": "svg+xml"
           // "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
           // "Content-Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
           // "Content-Type": "application/pdf"
